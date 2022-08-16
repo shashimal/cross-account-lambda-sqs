@@ -1,0 +1,5 @@
+{
+  "Policy": "{\"Version\":\"2008-10-17\",\"Id\":\"__default_policy_ID\",\"Statement\":[{\"Sid\":\"__owner_statement\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::549560551218:root\"},\"Action\":\"SQS:*\",\"Resource\":\"arn:aws:sqs:us-east-1:549560551218:OrderDetails\"},{\"Sid\":\"__receiver_statement\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::793209430381:role/cross-account-lambda-sqs-role\"},\"Action\":\"SQS:*\",\"Resource\":\"arn:aws:sqs:us-east-1:549560551218:OrderDetails\"}]}"
+}
+
+
